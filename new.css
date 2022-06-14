@@ -12,7 +12,7 @@ body{
     background-color: #111;
    
 }
-@media  (max-width: 660px){
+@media  (max-width: 768px){
     .main{
         font-size: 10px;
     }
@@ -22,7 +22,7 @@ body{
 
 }
 @keyframes glow{
-    0% ,70%{
+    0% ,70%{ 
         color:#fff;
       
        border-radius: 20px;
