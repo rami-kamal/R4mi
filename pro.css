@@ -1,0 +1,103 @@
+
+.navbar{
+    padding: 20px;
+  
+
+}
+.navbar ul{
+    list-style: none;
+    text-transform: capitalize;
+    
+}
+.navbar ul li{
+    margin: 10px;
+    display: inline;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 0  3px #3d535f ;
+}
+#in{
+    margin-left: 300px;
+    border: none;
+    background-color: #3d535f;
+    border-radius: 20px;
+    text-indent: 8px;
+    width: 300px;
+    font-size: 20px;
+    color: #f3f5f8;
+}
+::placeholder{
+    font-size: 17px;
+    color: #f3f5f8;
+}
+@media only screen and(max-width :800px) {
+
+
+    .navbar{
+        padding:5px;
+      
+    
+    }
+    .navbar ul{
+        list-style: none;
+        text-transform: capitalize;
+        
+    }
+    .navbar ul li{
+        margin: 4px;
+        display: inline;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 700;
+        text-shadow: 0 0  3px #3d535f ;
+        width: 100%;
+    }
+    #in{
+        margin-left: 200px;
+        border: none;
+        background-color: #3d535f;
+        border-radius: 0px;
+        text-indent: 8px;
+        width: 100%;
+        font-size: 20px;
+        color: #f3f5f8;
+    }
+    ::placeholder{
+        font-size: 17px;
+        color: #f3f5f8;
+
+    
+}
+}
+
+@media  only screen and (max-width :500px) {
+   
+.navbar , #in , ::placeholder , .navbar ul li a {
+    width: 30%;
+    font-size: 10px;
+
+}
+#in {
+    width: 20%;
+}
+
+.fa{
+    width: 1px;
+
+}
+
+::placeholder{
+    font-size: 5px;
+
+}
+
+}
+
